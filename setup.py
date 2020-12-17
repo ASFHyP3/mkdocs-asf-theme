@@ -11,7 +11,7 @@ setup(
     long_description=readme.read_text(),
     long_description_content_type='text/markdown',
 
-    url='https://github.com/asfadmin/asf-mkdocs-theme',
+    url='https://github.com/ASFHyP3/asf-mkdocs-theme',
 
     author='ASF APD/Tools Team',
     author_email='uaf-asf-apd@alaska.edu',
