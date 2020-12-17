@@ -1,0 +1,9 @@
+# Extends the mkdocs-material theme
+#   https://github.com/squidfunk/mkdocs-material
+extends: material
+
+# Favicon to be rendered
+favicon: assets/images/favicon.ico
+
+# ASF's Logo
+logo: assets/images/ASFLogo-Blue2.png
