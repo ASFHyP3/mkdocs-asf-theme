@@ -9,4 +9,4 @@ favicon: assets/images/favicon.ico
 logo: assets/images/ASFLogo-Blue2.png
 
 extra_css:
-  - assets/stylesheets/overries.css
+  - assets/stylesheets/overrides.css
