@@ -1,0 +1,6 @@
+include LICENSE
+include README.md
+
+graft asf_theme
+
+global-exclude *.py[cod] __pycache__ *.so
