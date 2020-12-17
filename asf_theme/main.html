@@ -5,7 +5,8 @@
 {% endblock %}
 {% block libs %}
 {{ super() }}
- <script>
+<script src="https://fbm.earthdata.nasa.gov/for/ASF/feedback.js" type="text/javascript"></script>
+<script type="text/javascript">
  // This prevents the FBM flyout banner from appearing on the side of the page.
 feedback.init({showIcon: false});
 </script>
@@ -13,7 +14,10 @@ feedback.init({showIcon: false});
 <script src="https://cdn.earthdata.nasa.gov/tophat2/tophat2.js"
         id="earthdata-tophat-script"
         data-show-fbm="true"
-        data-fbm-subject-line="Help with my app"></script>
+        data-show-status="false"
+        data-fbm-subject-line="Help with my app"
+        data-current-daac="ASF DAAC">
+</script>
 {% endblock %}
 {% block scripts %}
     {{ super() }}
