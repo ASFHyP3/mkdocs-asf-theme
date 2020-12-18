@@ -1,1 +1,2 @@
 .*gitleaks.toml$
+.*mkdocs_theme.yml$
