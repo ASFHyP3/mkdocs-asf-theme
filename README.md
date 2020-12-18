@@ -4,19 +4,20 @@ An extension of the MkDocs Material Theme for ASF
 
 ## Social links
 
-You can add *additional* social links by with
+You can add *additional* social links with
 ```yaml
 extra:
-social:
-  - icon: fontawesome/brands/gitter
-    link: https://gitter.im/ASFHyP3/community
+  social:
+    - icon: fontawesome/brands/gitter
+      link: https://gitter.im/ASFHyP3/community
 ```
  
-You can *Override* the theme provided social with
+You can *Override* the theme provided social link with
 ```yaml
 theme:
-social:
-  - icon: fontawesome/brands/gitter
-    link: https://gitter.im/ASFHyP3/community
+  name: "asf-theme"
+  social:
+    - icon: fontawesome/brands/gitter
+      link: https://gitter.im/ASFHyP3/community
 ```
 ] 
