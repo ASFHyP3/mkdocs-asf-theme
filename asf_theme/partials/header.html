@@ -69,11 +69,9 @@
       {% endif %}
     </div>
 
-    <!-- Button to open search dialogue -->
     {% if "search" in config["plugins"] %}
-      <div class="expert-rec-search">
-        <ci-search></ci-search>
-      </div>
+     <!-- Search interface -->
+      {% include "partials/search.html" %}
     {% endif %}
 
     <!-- Repository containing source -->
