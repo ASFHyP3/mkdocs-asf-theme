@@ -20,4 +20,3 @@ theme:
     - icon: fontawesome/brands/gitter
       link: https://gitter.im/ASFHyP3/community
 ```
-] 
