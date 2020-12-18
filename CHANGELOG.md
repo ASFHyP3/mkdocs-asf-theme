@@ -7,5 +7,15 @@ and this project adheres to [PEP 440](https://www.python.org/dev/peps/pep-0440/)
 and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [0.1.0](https://github.com/ASFHyP3/asf-mkdocs-theme/compare/v0.0.0...develop)
+
+### Added
+- Social links to the footer
+
+### Changed
+- Added search functionality uses the `search.html` partial instead of being directly
+  inserted into the header
+
+## [0.1.0](https://github.com/ASFHyP3/asf-mkdocs-theme/compare/v0.0.0...develop)
+
 ### Added
 - MkDocs theme based on material to match ASF branding
