@@ -12,7 +12,7 @@ extra:
       link: https://gitter.im/ASFHyP3/community
 ```
  
-You can *Override* the theme provided social link with
+You can *Override* the theme provided social links with
 ```yaml
 theme:
   name: "asf-theme"
