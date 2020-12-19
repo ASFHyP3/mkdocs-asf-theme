@@ -1,6 +1,7 @@
 # ASF MkDocs Theme
 
-An extension of the MkDocs Material Theme for ASF.
+An extension of the [MkDocs Material Theme](https://squidfunk.github.io/mkdocs-material/)
+for ASF.
 
 ## Logos
 
@@ -21,8 +22,6 @@ theme:
   name: "asf-theme"
   asf_logo:
 ```
-
-
 
 ### Site logo
 With the Material Theme, there are
