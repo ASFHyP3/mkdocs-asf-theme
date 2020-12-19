@@ -2,6 +2,10 @@
 #   https://github.com/squidfunk/mkdocs-material
 extends: material
 
+# Default site logo
+icon:
+  logo: material/library
+
 # Favicon to be rendered
 favicon: assets/images/favicon.ico
 
