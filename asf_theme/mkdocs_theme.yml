@@ -6,7 +6,7 @@ extends: material
 favicon: assets/images/favicon.ico
 
 # ASF's Logo
-logo: assets/images/ASFLogo-Blue2.png
+asf_logo: assets/images/ASFLogo-Blue2.png
 
 # ASF's social links
 social:
