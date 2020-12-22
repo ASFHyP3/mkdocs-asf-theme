@@ -19,6 +19,11 @@ feedback.init({showIcon: false});
         data-current-daac="ASF DAAC">
 </script>
 {% endblock %}
+{% block analytics %}
+  {% if config.google_analytics or config.theme.google_analytics %}
+    {% include "partials/integrations/analytics.html" %}
+  {% endif %}
+{% endblock %}
 {% block scripts %}
     {{ super() }}
     <script src="{{ 'assets/javascripts/expert-rec-search.js' | url }}"></script>

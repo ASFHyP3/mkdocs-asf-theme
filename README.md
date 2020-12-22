@@ -3,6 +3,26 @@
 An extension of the [MkDocs Material Theme](https://squidfunk.github.io/mkdocs-material/)
 for ASF.
 
+## Analytics
+
+By Default this theme will provide correct Google Analytics for ASF documentation site.
+However, analytics can be customized in your `mkdocs.yml` with
+```yaml
+google_analytics:
+  - UA-XXXXXXXX-X
+  - auto  # or a specific site URL
+```
+
+Likewise, to turn of analytics entirely, remove the site level `google_analytics`
+configuration and clear the theme one with
+```yaml
+```yaml
+theme:
+  name: "asf-theme"
+  google_analytics:
+```
+
+
 ## Logos
 
 By default, this theme will provide both the ASF logo and a site logo.
