@@ -84,7 +84,7 @@ where `[YEAR]` is replaced with the current year. You can customize the text aft
 copyright: Alaska Satellite Facility
 ```
 
-Likewise, to turn off analytics entirely, remove the site level `copyright`
+Likewise, to turn off the copyright notice entirely, remove the site level `copyright`
 configuration and clear the theme one with
 ```yaml
 theme:
