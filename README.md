@@ -21,6 +21,9 @@ theme:
   name: "asf-theme"
 ```
 
+To see an example of using this theme, see [ASF HyP3's MkDocs repository](https://github.com/ASFHyP3/ASFHyP3)
+which generates [ASF HyP3's documentation](https://hyp3-docs.asf.alaska.edu/).
+
 ## Customization
 
 This theme has been developed to be used out-of-the-box by ASF documentation sites
