@@ -32,6 +32,16 @@
   <!-- Top-level navigation -->
   <nav class="md-header-nav md-grid" aria-label="{{ lang.t('header.title') }}">
 
+    {% if config.theme.asf_logo %}
+      <!-- Link to ASF -->
+      <a
+        href="{{ config.theme.asf_logo_url }}"
+        title="ASF"
+        class="md-header-nav__button md-logo"
+        aria-label="ASF"
+      >
+      <img src="{{ config.theme.asf_logo | url }}" alt="logo" />
+    {% endif %}
     <!-- Link to home -->
     <a
       href="{{ site_url }}"

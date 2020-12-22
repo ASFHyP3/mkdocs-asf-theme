@@ -14,6 +14,8 @@ and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ### Changed
 - Added search functionality uses the `search.html` partial instead of being directly
   inserted into the header
+- Now includes two logos for a site - the ASF logo (linking back to ASF), and the
+  site logo (linking back to the site home page)
 
 ## [0.1.0](https://github.com/ASFHyP3/asf-mkdocs-theme/compare/v0.0.0...v0.1.0)
 
