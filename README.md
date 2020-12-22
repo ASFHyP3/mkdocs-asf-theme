@@ -13,7 +13,7 @@ google_analytics:
   - auto  # or a specific site URL
 ```
 
-Likewise, to turn of analytics entirely, make remove the site level `google_analytics`
+Likewise, to turn of analytics entirely, remove the site level `google_analytics`
 configuration and clear the theme one with
 ```yaml
 ```yaml
