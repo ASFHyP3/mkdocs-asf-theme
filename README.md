@@ -40,8 +40,8 @@ consider either:
 
 ### Analytics
 
-This theme will provide Google Analytics integration for an ASF documentation site 
-by default. However, analytics can be customized in your `mkdocs.yml` with
+This theme will provide Google Analytics integration for an ASF documentation site.
+However, analytics can be customized in your `mkdocs.yml` with
 ```yaml
 google_analytics:
   - UA-XXXXXXXX-X
@@ -58,7 +58,7 @@ theme:
 
 ### Logos
 
-This theme will provide both the ASF logo and a site logo by default.
+This theme will provide both the ASF logo and a site logo.
 
 #### ASF logo
 
@@ -107,7 +107,7 @@ theme:
 
 ### Copyright notice
 
-This theme will provide a copyright notice by default like
+This theme will provide a copyright notice like
 ```
 © [YEAR] Alaska Satellite Facility
 ```
