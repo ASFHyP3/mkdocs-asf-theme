@@ -6,5 +6,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [PEP 440](https://www.python.org/dev/peps/pep-0440/) 
 and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/ASFHyP3/asf-mkdocs-theme/compare/v0.0.0...develop) -- likely 0.0.1
+## [0.2.0](https://github.com/ASFHyP3/asf-mkdocs-theme/compare/v0.1.0...v0.2.0)
 
+### Added
+- Social links to the footer
+- Default Google Analytics settings
+
+### Changed
+- Added search functionality uses the `search.html` partial instead of being directly
+  inserted into the header
+- Now includes two logos for a site - the ASF logo (linking back to ASF), and the
+  site logo (linking back to the site home page)
+- Copyright in footer is now dynamic (provides `© YEAR `) and can be customized
+  or removed
+
+## [0.1.0](https://github.com/ASFHyP3/asf-mkdocs-theme/compare/v0.0.0...v0.1.0)
+
+### Added
+- MkDocs theme based on material to match ASF branding

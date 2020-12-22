@@ -2,8 +2,30 @@
 #   https://github.com/squidfunk/mkdocs-material
 extends: material
 
+# Default site logo
+icon:
+  logo: material/library
+
 # Favicon to be rendered
 favicon: assets/images/favicon.ico
 
-# ASF's Logo
-logo: assets/images/ASFLogo-Blue2.png
+# ASF's logo
+asf_logo: assets/images/ASFLogo-Blue2.png
+asf_logo_url: https://asf.alaska.edu/
+
+# ASF's copyright text
+copyright: Alaska Satellite Facility
+
+# ASF's social links
+social:
+  - icon: fontawesome/brands/facebook-f
+    link: https://www.facebook.com/AKSatellite
+  - icon: fontawesome/brands/twitter
+    link: https://twitter.com/Ak_Satellite
+  - icon: fontawesome/brands/youtube
+    link: https://www.youtube.com/channel/UChCfI0oVWw4qDwEidnDskJQ
+
+# ASF's Google Analytics
+google_analytics:
+  - UA-991100-5
+  - search.asf.alaska.edu
