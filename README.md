@@ -7,7 +7,36 @@
 An extension of the [MkDocs Material Theme](https://squidfunk.github.io/mkdocs-material/)
 for ASF.
 
-## Analytics
+
+## Quickstart
+
+This theme is distributed on [PyPI](https://pypi.org/project/mkdocs-asf-theme/) and can be installed using `pip`:
+```
+python -m pip install mkdocs-asf-theme
+```
+
+To use this theme, add the following lines to your `mkdocs.yml`:
+```yaml
+theme:
+  name: "asf-theme"
+```
+
+## Customization
+
+This theme has been developed to be used out-of-the-box by ASF documentation sites
+with sensible defaults. While sections below describe how to customize the
+ASF-specific features of this theme, we hope most users won't need them.
+
+Because this theme is an extension of the [MkDocs Material Theme](https://squidfunk.github.io/mkdocs-material/),
+advanced customization can be done by following the MkDocs Material Theme
+[documentation](https://squidfunk.github.io/mkdocs-material/). **However**, please
+consider either:
+* [opening an issue](https://github.com/ASFHyP3/asf-mkdocs-theme/issues)
+  and requesting any customization you need to be incorporated into this theme
+* Opening a pull request to this theme with your customizations so they are available
+  to all ASF documentation sites
+
+### Analytics
 
 By Default this theme will provide correct Google Analytics for ASF documentation site.
 However, analytics can be customized in your `mkdocs.yml` with
@@ -26,12 +55,11 @@ theme:
   google_analytics:
 ```
 
-
-## Logos
+### Logos
 
 By default, this theme will provide both the ASF logo and a site logo.
 
-### ASF logo
+#### ASF logo
 
 You can change the ASF logo and/or logo URL with
 ```yaml
@@ -48,7 +76,7 @@ theme:
   asf_logo:
 ```
 
-### Site logo
+#### Site logo
 With the Material Theme, there are
 [two ways to change the site logo](https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#logo).
 
@@ -76,7 +104,7 @@ theme:
     logo:
 ```
 
-## Copyright notice
+### Copyright notice
 
 By default, this theme will provide a copyright notice like
 ```
@@ -96,7 +124,7 @@ theme:
   copyright:
 ```
 
-## Social links
+### Social links
 
 You can add *additional* social links with
 ```yaml
