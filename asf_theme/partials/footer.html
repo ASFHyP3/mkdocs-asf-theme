@@ -113,9 +113,12 @@
 
       <!-- Copyright and theme information -->
       <div class="md-footer-copyright">
-        {% if config.copyright %}
+        {% if config.copyright or config.theme.copyright %}
           <div class="md-footer-copyright__highlight">
-            {{ config.copyright }}
+            &copy; <script type="text/javascript">
+                document.write(new Date().getFullYear());
+</script>
+            {{ config.copyright if config.copyright else config.theme.copyright}}
 
             <!-- ASF non-discrimination disclaimer-->
             &nbsp;&nbsp;
