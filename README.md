@@ -9,11 +9,12 @@ By default, this theme will provide both the ASF logo and a site logo.
 
 ### ASF logo
 
-You can change the ASF logo with
+You can change the ASF logo and/or logo URL with
 ```yaml
 theme:
   name: "asf-theme"
   asf_logo: images/asf-altenate-logo.png
+  asf_logo_url: https://asf.alaska.edu/
 ```
 
 or remove the ASF logo with
