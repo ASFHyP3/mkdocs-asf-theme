@@ -4,6 +4,8 @@
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/mkdocs-asf-theme.svg)](https://pypi.python.org/pypi/mkdocs-asf-theme/)
 [![PyPI version](https://img.shields.io/pypi/v/mkdocs-asf-theme.svg)](https://pypi.python.org/pypi/mkdocs-asf-theme/)
 
+[![DOI](https://zenodo.org/badge/322375450.svg)](https://zenodo.org/badge/latestdoi/322375450)
+
 An extension of the [MkDocs Material Theme](https://squidfunk.github.io/mkdocs-material/)
 for ASF.
 
