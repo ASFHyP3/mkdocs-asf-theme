@@ -7,7 +7,6 @@
 An extension of the [MkDocs Material Theme](https://squidfunk.github.io/mkdocs-material/)
 for ASF.
 
-
 ## Quickstart
 
 This theme is distributed on [PyPI](https://pypi.org/project/mkdocs-asf-theme/) and can be installed using `pip`:
@@ -18,7 +17,7 @@ python -m pip install mkdocs-asf-theme
 To use this theme, add the following lines to your `mkdocs.yml`:
 ```yaml
 theme:
-  name: "asf-theme"
+  name: asf-theme
 ```
 
 To see an example of using this theme, see [ASF HyP3's MkDocs repository](https://github.com/ASFHyP3/ASFHyP3)
@@ -26,8 +25,8 @@ which generates [ASF HyP3's documentation](https://hyp3-docs.asf.alaska.edu/).
 
 ## Customization
 
-This theme has been developed to be used out-of-the-box by ASF documentation sites
-with sensible defaults. While sections below describe how to customize the
+This theme has been developed with sensible defaults to be used out-of-the-box by
+ASF documentation sites. While sections below describe how to customize the
 ASF-specific features of this theme, we hope most users won't need them.
 
 Because this theme is an extension of the [MkDocs Material Theme](https://squidfunk.github.io/mkdocs-material/),
@@ -41,33 +40,32 @@ consider either:
 
 ### Analytics
 
-By Default this theme will provide correct Google Analytics for ASF documentation site.
-However, analytics can be customized in your `mkdocs.yml` with
+This theme will provide Google Analytics integration for an ASF documentation site 
+by default. However, analytics can be customized in your `mkdocs.yml` with
 ```yaml
 google_analytics:
   - UA-XXXXXXXX-X
   - auto  # or a specific site URL
 ```
 
-Likewise, to turn off analytics entirely, remove the site level `google_analytics`
+To turn off analytics entirely, remove the site level `google_analytics`
 configuration and clear the theme one with
 ```yaml
-```yaml
 theme:
-  name: "asf-theme"
+  name: asf-theme
   google_analytics:
 ```
 
 ### Logos
 
-By default, this theme will provide both the ASF logo and a site logo.
+This theme will provide both the ASF logo and a site logo by default.
 
 #### ASF logo
 
 You can change the ASF logo and/or logo URL with
 ```yaml
 theme:
-  name: "asf-theme"
+  name: asf-theme
   asf_logo: images/asf-altenate-logo.png
   asf_logo_url: https://asf.alaska.edu/
 ```
@@ -75,7 +73,7 @@ theme:
 or remove the ASF logo with
 ```yaml
 theme:
-  name: "asf-theme"
+  name: asf-theme
   asf_logo:
 ```
 
@@ -86,14 +84,14 @@ With the Material Theme, there are
 1. You can change site logo with a direct link to an image
    ```yaml
    theme:
-     name: "asf-theme"
+     name: asf-theme
      logo: images/my-logo.png
    ```
 
 2. or by specifying an icon
    ```yaml
    theme:
-     name: "asf-theme"
+     name: asf-theme
      icon:
        logo: material/library
    ```
@@ -102,14 +100,14 @@ With the Material Theme, there are
 To remove the site logo, specify an empty icon (and no theme logo)
 ```yaml
 theme:
-  name: "asf-theme"
+  name: asf-theme
   icon:
     logo:
 ```
 
 ### Copyright notice
 
-By default, this theme will provide a copyright notice like
+This theme will provide a copyright notice by default like
 ```
 © [YEAR] Alaska Satellite Facility
 ```
@@ -119,11 +117,11 @@ where `[YEAR]` is replaced with the current year. You can customize the text aft
 copyright: Alaska Satellite Facility
 ```
 
-Likewise, to turn off the copyright notice entirely, remove the site level `copyright`
+To turn off the copyright notice entirely, remove the site level `copyright`
 configuration and clear the theme one with
 ```yaml
 theme:
-  name: "asf-theme"
+  name: asf-theme
   copyright:
 ```
 
@@ -140,7 +138,7 @@ extra:
 You can *override* the theme provided social links with
 ```yaml
 theme:
-  name: "asf-theme"
+  name: asf-theme
   social:
     - icon: fontawesome/brands/gitter
       link: https://gitter.im/ASFHyP3/community
