@@ -9,9 +9,12 @@ icon:
 # Favicon to be rendered
 favicon: assets/images/favicon.ico
 
-# ASF's Logo
+# ASF's logo
 asf_logo: assets/images/ASFLogo-Blue2.png
 asf_logo_url: https://asf.alaska.edu/
+
+# ASF's copyright text
+copyright: Alaska Satellite Facility
 
 # ASF's social links
 social:

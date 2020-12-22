@@ -113,20 +113,22 @@
 
       <!-- Copyright and theme information -->
       <div class="md-footer-copyright">
-        {% if config.copyright %}
-          <div class="md-footer-copyright__highlight">
-            {{ config.copyright }}
-
-            <!-- ASF non-discrimination disclaimer-->
-            &nbsp;&nbsp;
-            <a href="https://www.alaska.edu/nondiscrimination"
-               target="_blank"
-               class="md-footer-copyright-link">
-              UA is an AA/EO employer and educational institution and prohibits
-              illegal discrimination against any individual
-            </a>
-          </div>
-        {% endif %}
+        <div class="md-footer-copyright__highlight">
+          {% if config.copyright or config.theme.copyright %}
+            &copy; <script type="text/javascript">
+                document.write(new Date().getFullYear());
+            </script>
+            {{ config.copyright if config.copyright else config.theme.copyright}}
+          {% endif %}
+          <!-- ASF non-discrimination disclaimer-->
+          &nbsp;&nbsp;
+          <a href="https://www.alaska.edu/nondiscrimination"
+             target="_blank"
+             class="md-footer-copyright-link">
+            UA is an AA/EO employer and educational institution and prohibits
+            illegal discrimination against any individual
+          </a>
+        </div>
       </div>
 
       <!-- Social links -->

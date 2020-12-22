@@ -13,7 +13,7 @@ google_analytics:
   - auto  # or a specific site URL
 ```
 
-Likewise, to turn of analytics entirely, remove the site level `google_analytics`
+Likewise, to turn off analytics entirely, remove the site level `google_analytics`
 configuration and clear the theme one with
 ```yaml
 ```yaml
@@ -72,6 +72,25 @@ theme:
     logo:
 ```
 
+## Copyright notice
+
+By default, this theme will provide a copyright notice like
+```
+© [YEAR] Alaska Satellite Facility
+```
+where `[YEAR]` is replaced with the current year. You can customize the text after
+`© [YEAR]` in your `mkdocs.yml` with
+```yaml
+copyright: Alaska Satellite Facility
+```
+
+Likewise, to turn off the copyright notice entirely, remove the site level `copyright`
+configuration and clear the theme one with
+```yaml
+theme:
+  name: "asf-theme"
+  copyright:
+```
 
 ## Social links
 
