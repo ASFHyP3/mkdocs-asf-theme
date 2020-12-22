@@ -1,5 +1,9 @@
 # ASF MkDocs Theme
 
+[![PyPI license](https://img.shields.io/pypi/l/mkdocs-asf-theme.svg)](https://pypi.python.org/pypi/mkdocs-asf-theme/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/mkdocs-asf-theme.svg)](https://pypi.python.org/pypi/mkdocs-asf-theme/)
+[![PyPI version](https://img.shields.io/pypi/v/mkdocs-asf-theme.svg)](https://pypi.python.org/pypi/mkdocs-asf-theme/)
+
 An extension of the [MkDocs Material Theme](https://squidfunk.github.io/mkdocs-material/)
 for ASF.
 
