@@ -10,6 +10,7 @@ and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 - Social links to the footer
+- Default Google Analytics settings
 
 ### Changed
 - Added search functionality uses the `search.html` partial instead of being directly
