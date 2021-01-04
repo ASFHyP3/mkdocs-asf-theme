@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [PEP 440](https://www.python.org/dev/peps/pep-0440/) 
 and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.1](https://github.com/ASFHyP3/asf-mkdocs-theme/compare/v0.2.0...v0.2.1)
+### Changed
+- HTML in partials footer no longer calls document.write() should fix bug where page gets deleted and replaced by current year
+
 ## [0.2.0](https://github.com/ASFHyP3/asf-mkdocs-theme/compare/v0.1.0...v0.2.0)
 
 ### Added
