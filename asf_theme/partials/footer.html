@@ -115,10 +115,10 @@
       <div class="md-footer-copyright">
         <div class="md-footer-copyright__highlight">
           {% if config.copyright or config.theme.copyright %}
-            &copy; <span id="copyright-date"><span>
+            &copy; <span id="copyright-year"><span>
             <script type="text/javascript">
                 current_year = new Date().getFullYear();
-                document.getElementById("copyright-date").innerHTML=current_year;
+                document.getElementById("copyright-year").innerHTML=current_year;
             </script>
             {{ config.copyright if config.copyright else config.theme.copyright}}
           {% endif %}
