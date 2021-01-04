@@ -117,8 +117,8 @@
           {% if config.copyright or config.theme.copyright %}
             &copy; <span id="date"><span>
             <script type="text/javascript">
-                d = new Date().getFullYear();
-                document.getElementById(date).innerHTML=d;
+                current_year = new Date().getFullYear();
+                document.getElementById("date").innerHTML=current_year;
             </script>
             {{ config.copyright if config.copyright else config.theme.copyright}}
           {% endif %}
