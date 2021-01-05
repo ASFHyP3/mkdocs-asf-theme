@@ -1,7 +1,8 @@
 """An extension of the MkDocs Material Theme for ASF"""
 
 from importlib.metadata import PackageNotFoundError, version
-_pip_name = f'mkdocs-{__name__.replace("_", "-")}'
+
+_pip_name = 'mkdocs-asf-theme'
 try:
     __version__ = version(_pip_name)
 except PackageNotFoundError:
