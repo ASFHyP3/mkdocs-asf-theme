@@ -4,6 +4,8 @@
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/mkdocs-asf-theme.svg)](https://pypi.python.org/pypi/mkdocs-asf-theme/)
 [![PyPI version](https://img.shields.io/pypi/v/mkdocs-asf-theme.svg)](https://pypi.python.org/pypi/mkdocs-asf-theme/)
 
+[![DOI](https://zenodo.org/badge/322375450.svg)](https://zenodo.org/badge/latestdoi/322375450)
+
 An extension of the [MkDocs Material Theme](https://squidfunk.github.io/mkdocs-material/)
 for ASF.
 
@@ -33,7 +35,7 @@ Because this theme is an extension of the [MkDocs Material Theme](https://squidf
 advanced customization can be done by following the MkDocs Material Theme
 [documentation](https://squidfunk.github.io/mkdocs-material/). **However**, please
 consider either:
-* [opening an issue](https://github.com/ASFHyP3/asf-mkdocs-theme/issues)
+* [opening an issue](https://github.com/ASFHyP3/mkdocs-asf-theme/issues)
   and requesting any customization you need to be incorporated into this theme
 * Opening a pull request to this theme with your customizations so they are available
   to all ASF documentation sites
