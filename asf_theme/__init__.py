@@ -1,15 +1,15 @@
 """An extension of the MkDocs Material Theme for ASF"""
 
 from importlib.metadata import PackageNotFoundError, version
-
+_pip_name = f'mkdocs-{__name__.replace("_", "-")}'
 try:
-    __version__ = version(__name__)
+    __version__ = version(_pip_name)
 except PackageNotFoundError:
-    print('package is not installed!\n'
-          'Install in editable/develop mode via (from the top of this repo):\n'
-          '   python -m pip install -e .\n'
-          'Or, to just get the version number use:\n'
-          '   python setup.py --version')
+    print(f'{_pip_name} package is not installed!\n'
+          f'Install in editable/develop mode via (from the top of this repo):\n'
+          f'   python -m pip install -e .\n'
+          f'Or, to just get the version number use:\n'
+          f'   python setup.py --version')
 
 __all__ = [
     '__version__',
