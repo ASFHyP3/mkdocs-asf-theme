@@ -6,7 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [PEP 440](https://www.python.org/dev/peps/pep-0440/) 
 and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.2](https://github.com/ASFHyP3/mkdocs-asf-theme/compare/v0.2.1...v0.2.2)
+
+### Changed
+- MkDocs Material theme 7 breaks the theme header, so the dependency is now pinned to `mkdocs-material>=6.0,<7.0`
+
 ## [0.2.1](https://github.com/ASFHyP3/mkdocs-asf-theme/compare/v0.2.0...v0.2.1)
+
 ### Changed
 - HTML in partials footer no longer calls document.write() should fix bug where page gets deleted and replaced by current year
 - Renamed github repository to `mkdocs-asf-theme` to mirror PyPI
