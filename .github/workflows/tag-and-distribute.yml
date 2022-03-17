@@ -74,6 +74,7 @@ jobs:
           echo "Tagged version $(git describe --abbrev=0) and pushed back to repo"
 
       - name: Build package
+        id: build
         run: |
           git fetch origin +refs/tags/*:refs/tags/*
           export SDIST_VERSION=$(python setup.py --version)
