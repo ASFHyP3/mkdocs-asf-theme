@@ -104,6 +104,10 @@ a {
   margin-left: 0;
 }
 
+.md-nav__title {
+  color: black;
+}
+
 .expert-rec-search {
   margin-top: 10px;
 }
