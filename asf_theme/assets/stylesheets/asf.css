@@ -38,7 +38,7 @@ a {
   background-image: url("../images/map.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center 128%;
+  background-position: center center;
   min-height: 574px;
   border-top: 58px solid #ffcd00;
 }
