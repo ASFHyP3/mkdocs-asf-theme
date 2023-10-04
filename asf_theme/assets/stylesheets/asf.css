@@ -10,21 +10,24 @@ a {
   color: rgba(248, 248, 248, 100);
 }
 
+.md-header, .md-footer {
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
 .md-header {
   background: rgb(101, 102, 92);
   background: linear-gradient(180deg, rgba(101, 102, 92, 1) 0%, rgba(106, 106, 106, 1) 100%);
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-
 }
 
 .md-footer {
-  background: rgb(101, 102, 92);
-  /* TODO: linear gradient doesn't display properly */
-  /*background: linear-gradient(180deg, rgba(101, 102, 92, 1) 0%, rgba(106, 106, 106, 1) 100%);*/
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-
+  background: rgb(106, 106, 106);
+  background-image: url("../images/map.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 574px;
+  border-top: 58px solid #ffcd00;
 }
 
 .md-header__button.md-logo img {
@@ -32,15 +35,6 @@ a {
   width: auto;
   display: inline-block;
   margin-top: -7px;
-}
-
-.md-footer {
-  background-image: url("../images/map.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  min-height: 574px;
-  border-top: 58px solid #ffcd00;
 }
 
 .md-footer-meta.md-typeset {
