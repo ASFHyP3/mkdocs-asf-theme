@@ -16,12 +16,6 @@ and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
         features:
       +    - navigation.footer
       ```
-    - If you currently use the search plugin, you should make the following change to your website's `mkdocs.yml` file:
-      ```diff
-      plugins:
-      -  - search
-      +  - material/search
-      ```
     - You should carefully review your website to confirm that everything still renders and functions as expected.
     - If anything does not work as expected, you may want to read the [`mkdocs-material` upgrade guide](https://squidfunk.github.io/mkdocs-material/upgrade/) starting at [Upgrading from 6.x to 7.x](https://squidfunk.github.io/mkdocs-material/upgrade/#upgrading-from-6x-to-7x) for any other important changes that may apply to your website.
 
