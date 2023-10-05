@@ -99,8 +99,20 @@ a {
   margin-left: 0;
 }
 
+.md-nav--primary .md-nav__title {
+  box-shadow: none;
+  background: none;
+}
+
+.md-nav--secondary .md-nav__title {
+  box-shadow: none;
+  background: none;
+}
+
+
 .md-nav__title {
   color: black;
+  box-shadow: none;
 }
 
 .expert-rec-search {
