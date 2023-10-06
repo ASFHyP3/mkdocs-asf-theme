@@ -136,3 +136,29 @@ theme:
     - icon: fontawesome/brands/gitter
       link: https://gitter.im/ASFHyP3/community
 ```
+
+## Development
+
+### Upgrading `mkdocs-material` to a new major version
+
+When upgrading the `mkdocs-material` dependency to a new major version,
+you should reference the [upgrade guide](https://squidfunk.github.io/mkdocs-material/upgrade/)
+for any important changes.
+
+In particular, you should update each template `.html` file in [asf_theme/partials](./asf_theme/partials)
+to match the latest upstream version as closely as possible.
+Each template file should include a comment near the top of the file
+with a link to the upstream version upon which it was based.
+When updating a particular template file,
+you can `diff` it against the linked upstream version to see what changes were made.
+Then you can apply those changes to the *latest* upstream version of the file.
+
+For example, when updating `header.html` from major version 9 to 10,
+you can `diff` our version of `header.html` against the `9.x.x` upstream version linked near the top of the file.
+Then you can download the latest `10.x.x` upstream version from <https://github.com/squidfunk/mkdocs-material>
+and apply the `diff` changes, adapting them as necessary for the latest version of `mkdocs-material`.
+
+You may also have to update
+[asf_theme/assets/stylesheets/asf.css](./asf_theme/assets/stylesheets/asf.css),
+[asf_theme/main.html](./asf_theme/main.html),
+and [asf_theme/mkdocs_theme.yml](./asf_theme/mkdocs_theme.yml) as appropriate.
