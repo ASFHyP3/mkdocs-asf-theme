@@ -98,4 +98,6 @@ jobs:
       - name: Pip install ${{ needs.package.outputs.SDIST_VERSION }}
         shell: bash -l {0}
         run: |
+          sleep 30s
+          python -m pip install --upgrade pip
           python -m pip install mkdocs-asf-theme==${{ needs.package.outputs.SDIST_VERSION }}

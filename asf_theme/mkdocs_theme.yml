@@ -24,8 +24,3 @@ social:
     link: https://twitter.com/Ak_Satellite
   - icon: fontawesome/brands/youtube
     link: https://www.youtube.com/channel/UChCfI0oVWw4qDwEidnDskJQ
-
-# ASF's Google Analytics
-google_analytics:
-  - UA-991100-5
-  - search.asf.alaska.edu
