@@ -40,24 +40,6 @@ consider either:
 * Opening a pull request to this theme with your customizations so they are available
   to all ASF documentation sites
 
-### Analytics
-
-This theme will provide Google Analytics integration for an ASF documentation site.
-However, analytics can be customized in your `mkdocs.yml` with
-```yaml
-google_analytics:
-  - UA-XXXXXXXX-X
-  - auto  # or a specific site URL
-```
-
-To turn off analytics entirely, remove the site level `google_analytics`
-configuration and clear the theme one with
-```yaml
-theme:
-  name: asf-theme
-  google_analytics:
-```
-
 ### Logos
 
 This theme will provide both the ASF logo and a site logo.
