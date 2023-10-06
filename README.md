@@ -27,6 +27,10 @@ which generates [ASF HyP3's documentation](https://hyp3-docs.asf.alaska.edu/).
 
 ## Customization
 
+> [!WARNING]
+> You should NOT include the `navigation.instant` feature in your `mkdocs.yml`.
+> See <https://github.com/ASFHyP3/hyp3-docs/pull/371> for more information.
+
 This theme has been developed with sensible defaults to be used out-of-the-box by
 ASF documentation sites. While sections below describe how to customize the
 ASF-specific features of this theme, we hope most users won't need them.
