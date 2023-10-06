@@ -1,0 +1,13 @@
+name: mkdocs-asf-theme
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.9
+  - pip
+  # For packaging and distribution
+  - build
+  - setuptools>=61
+  - setuptools_scm>=6.2
+  - mkdocs
+  - mkdocs-material>=9,<10
