@@ -31,7 +31,7 @@ setup(
 
     install_requires=[
         'mkdocs',
-        'mkdocs-material>=6.2.1,<7.0',
+        'mkdocs-material==9.4.2',
     ],
 
     packages=find_packages(),
