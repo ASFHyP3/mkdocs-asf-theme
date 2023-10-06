@@ -1,3 +1,4 @@
+<!-- Extends https://github.com/squidfunk/mkdocs-material/blob/9.4.2/src/templates/base.html -->
 {% extends "base.html" %}
 {% block styles %}
     {{ super() }}
@@ -18,11 +19,6 @@ feedback.init({showIcon: false});
         data-fbm-subject-line="How can we help you?"
         data-current-daac="ASF DAAC">
 </script>
-{% endblock %}
-{% block analytics %}
-  {% if config.google_analytics or config.theme.google_analytics %}
-    {% include "partials/integrations/analytics.html" %}
-  {% endif %}
 {% endblock %}
 {% block scripts %}
     {{ super() }}

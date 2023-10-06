@@ -27,6 +27,10 @@ which generates [ASF HyP3's documentation](https://hyp3-docs.asf.alaska.edu/).
 
 ## Customization
 
+> [!WARNING]
+> You should NOT include the `navigation.instant` feature in your `mkdocs.yml`.
+> See <https://github.com/ASFHyP3/hyp3-docs/pull/371> for more information.
+
 This theme has been developed with sensible defaults to be used out-of-the-box by
 ASF documentation sites. While sections below describe how to customize the
 ASF-specific features of this theme, we hope most users won't need them.
@@ -42,21 +46,8 @@ consider either:
 
 ### Analytics
 
-This theme will provide Google Analytics integration for an ASF documentation site.
-However, analytics can be customized in your `mkdocs.yml` with
-```yaml
-google_analytics:
-  - UA-XXXXXXXX-X
-  - auto  # or a specific site URL
-```
-
-To turn off analytics entirely, remove the site level `google_analytics`
-configuration and clear the theme one with
-```yaml
-theme:
-  name: asf-theme
-  google_analytics:
-```
+You can follow <https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/>
+to enable analytics for your site.
 
 ### Logos
 
@@ -145,3 +136,29 @@ theme:
     - icon: fontawesome/brands/gitter
       link: https://gitter.im/ASFHyP3/community
 ```
+
+## Development
+
+### Upgrading `mkdocs-material` to a new major version
+
+When upgrading the `mkdocs-material` dependency to a new major version,
+you should reference the [upgrade guide](https://squidfunk.github.io/mkdocs-material/upgrade/)
+for any important changes.
+
+In particular, you should update each template `.html` file in [asf_theme/partials](./asf_theme/partials)
+to match the latest upstream version as closely as possible.
+Each template file should include a comment near the top of the file
+with a link to the upstream version upon which it was based.
+When updating a particular template file,
+you can `diff` it against the linked upstream version to see what changes were made.
+Then you can apply those changes to the *latest* upstream version of the file.
+
+For example, when updating `header.html` from major version 9 to 10,
+you can `diff` our version of `header.html` against the `9.x.x` upstream version linked near the top of the file.
+Then you can download the latest `10.x.x` upstream version from <https://github.com/squidfunk/mkdocs-material>
+and apply the `diff` changes, adapting them as necessary for the latest version of `mkdocs-material`.
+
+You may also have to update
+[asf_theme/assets/stylesheets/asf.css](./asf_theme/assets/stylesheets/asf.css),
+[asf_theme/main.html](./asf_theme/main.html),
+and [asf_theme/mkdocs_theme.yml](./asf_theme/mkdocs_theme.yml) as appropriate.
