@@ -10,6 +10,7 @@ and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Changed
 - Upgraded `mkdocs-material` to v9.4.2. We have updated our templates in [asf_theme/partials](./asf_theme/partials) to match the [upstream versions](https://github.com/squidfunk/mkdocs-material/tree/9.4.2/src/templates/partials) as closely as possible. This introduces breaking changes. In particular:
+    - Analytics is no longer provided by default. You should follow <https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/> to enable analytics for your website.
     - If you want a footer, you should make the following change to your website's `mkdocs.yml` file:
       ```diff
       theme:

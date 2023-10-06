@@ -40,6 +40,11 @@ consider either:
 * Opening a pull request to this theme with your customizations so they are available
   to all ASF documentation sites
 
+### Analytics
+
+You can follow <https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/>
+to enable analytics for your site.
+
 ### Logos
 
 This theme will provide both the ASF logo and a site logo.
