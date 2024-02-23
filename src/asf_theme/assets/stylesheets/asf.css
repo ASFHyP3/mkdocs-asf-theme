@@ -6,6 +6,17 @@ a {
   color: #236192;
 }
 
+/*
+Set tables to max width:
+https://github.com/squidfunk/mkdocs-material/issues/175#issuecomment-616694465
+*/
+.md-typeset__table {
+   min-width: 100%;
+}
+.md-typeset table:not([class]) {
+    display: table;
+}
+
 .md-header a, .md-footer a {
   color: rgba(248, 248, 248, 100);
 }
