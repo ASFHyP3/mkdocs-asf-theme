@@ -160,5 +160,5 @@ and apply the `diff` changes, adapting them as necessary for the latest version 
 
 You may also have to update
 [asf_theme/assets/stylesheets/asf.css](./asf_theme/assets/stylesheets/asf.css),
-[asf_theme/main.html](./asf_theme/main.html),
+[asf_theme/partials/main.html](./asf_theme/partials/main.html),
 and [asf_theme/mkdocs_theme.yml](./asf_theme/mkdocs_theme.yml) as appropriate.
