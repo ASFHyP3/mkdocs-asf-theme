@@ -9,9 +9,6 @@ jobs:
   call-release-workflow:
     uses: ASFHyP3/actions/.github/workflows/reusable-release.yml@v0.11.0
     with:
-      release_prefix: HyP3-CI
-      release_branch: main      # Optional; default shown
-      develop_branch: develop   # Optional; default shown
-      sync_pr_label: tools-bot  # Optional; default shown
+      release_prefix: ASF MkDocs Theme
     secrets:
       USER_TOKEN: ${{ secrets.TOOLS_BOT_PAK }}
