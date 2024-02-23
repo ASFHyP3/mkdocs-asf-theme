@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [PEP 440](https://www.python.org/dev/peps/pep-0440/) 
 and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.1]
+
+### Changed
+- The contents of `main.html` have been moved to `partials/main.html` and `main.html` now extends from `partials/main.html`. This allows any project using this theme to override `main.html` and extend from `partials/main.html`, which allows projects to override blocks defined in [`base.html`](https://github.com/squidfunk/mkdocs-material/blob/9.4.2/src/templates/base.html).
+
 ## [0.3.0]
 
 ### Changed
