@@ -116,3 +116,22 @@ a {
 .expert-rec-search {
   margin-top: 10px;
 }
+
+#announcement-content {
+  font-weight: bold;
+  text-align: center;
+}
+
+a.announcement-link {
+  color: #33adff;
+  text-decoration: underline;
+}
+
+/*
+Without this block, there is a non-clickable, apparently useless X icon displayed
+on the right-hand side of the announcement bar, near the real X button.
+This block hides that element.
+*/
+i.fa.fa-times::before {
+  display: none;
+}
