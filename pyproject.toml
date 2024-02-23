@@ -28,7 +28,7 @@ dependencies = [
 dynamic = ["version"]
 
 [project.entry-points."mkdocs.themes"]
-asf-theme = "asf_tools"
+asf-theme = "asf_theme"
 
 [project.urls]
 Homepage = "https://github.com/ASFHyP3/mkdocs-asf-theme"

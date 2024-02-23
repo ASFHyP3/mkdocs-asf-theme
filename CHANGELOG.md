@@ -12,6 +12,7 @@ and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ### Changed
 * `mkdocs-asf-theme` now uses a `src` layout per this [recommendation](https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/).
 * `mkdocs-asf-theme` now only uses `pyproject.toml` for package creation now that `setuptools` recommends [not using setup.py](https://setuptools.pypa.io/en/latest/userguide/quickstart.html#setuppy-discouraged).
+- The contents of `main.html` have been moved to `partials/main.html` and `main.html` now extends from `partials/main.html`. This allows any project using this theme to override `main.html` and extend from `partials/main.html`, which allows projects to override blocks defined in [`base.html`](https://github.com/squidfunk/mkdocs-material/blob/9.4.2/src/templates/base.html).
 
 ## [0.3.0]
 
