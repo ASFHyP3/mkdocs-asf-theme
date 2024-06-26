@@ -11,7 +11,7 @@ for ASF.
 
 ## Quickstart
 
-This theme is distributed on [PyPI](https://pypi.org/project/mkdocs-asf-theme/) and can be installed into a Python 3.8+ environment using `pip`:
+This theme is distributed on [PyPI](https://pypi.org/project/mkdocs-asf-theme/) and can be installed into a Python 3.10+ environment using `pip`:
 ```
 python -m pip install mkdocs-asf-theme
 ```
